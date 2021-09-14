@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+      <title>Transportes Q&A</title>
+      <link href="favicon.png" type="image/x-icon" rel="shortcut icon">
+      <link href="assets/css/master.css" rel="stylesheet">
+      <script src="assets/plugins/jquery/jquery-1.11.3.min.js"></script>
+      <script src="assets/js/modernizr.custom.js"></script>
+   </head>
+   <body>
+      <!-- Loader -->
+      <div id="page-preloader"><span class="spinner"></span></div>
+      <!-- Loader end -->
+      <div class="layout-theme animated-css"  data-header="sticky" data-header-top="200">
+         <!-- HEADER -->
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12">
+                  <header class="header">
+                     <div class="header__wrap">
+                        <div class="header-top clearfix">
+                           <div class="header-top__inner">
+                              <span class="header-top__contacts">Telf : (+511) 540 9323 - 984 545 121</span>
+                              <span class="header-top__contacts">Email : <a class="header-top__contacts-link" href="mailto:info@transportesqa.com"> info@transportesqa.com</a></span>
+                              <span class="header-top__contacts">Mon  -  SUN :  12PM  -  12AM</span>
+                           </div>
+                           <ul class="social-links list-inline">
+                              <li><a target="_blank" href="#"><i class="icons fa fa-twitter"></i></a></li>
+                              <li><a target="_blank" href="#"><i class="icons fa fa-facebook"></i></a></li>
+                              <li><a target="_blank" href="#"><i class="icons fa fa-linkedin"></i></a></li>
+                              <li><a target="_blank" href="#"><i class="icons fa fa-google-plus"></i></a></li>
+                           </ul>
+                        </div>
+                        <a class="logo" href="index.html"><img class="logo__img" src="assets/img/logo_mod-a.png" alt="Logo"></a>
+                        <div class="header__inner clearfix">
+                           <nav class="navbar yamm">
+                              <div class="navbar-header hidden-md hidden-lg hidden-sm">
+                                 <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                              </div>
+                              <div id="navbar-collapse-1" class="navbar-collapse collapse">
+                                 <ul class="nav navbar-nav">
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="about.html">Nosotros</a></li>
+                                    <li><a href="services.html">Servicios</a></li>
+                                    <li class="active"><a href="cotizacion.html">Presupuesto</a></li>
+                                    <li><a href="contact.html">Contacto</a></li>
+                                 </ul>
+                              </div>
+                           </nav>
+                           <a class="header__btn btn btn-primary btn-sm btn-effect-2" href="cotizacion.html">Cotización</a>
+                        </div>
+                     </div>
+                  </header>
+                  <!-- end header-->
+               </div>
+               <!-- end col-->
+            </div>
+            <!-- end row-->
+         </div>
+         <!-- end container-->
+         <div class="section-title parallax-bg parallax-light">
+            <ul class="bg-slideshow">
+               <li>
+                  <div style="background-image:url(assets/media/bg/bg-title.jpg)" class="bg-slide"></div>
+               </li>
+            </ul>
+            <div class="section__inner">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12">
+                        <h1 class="ui-title-page">Cotización</h1>
+                        <div class="ui-subtitle-page">Rellene el siguiente formulario y nos pondremos en contacto con un presupuesto aproximado para sus necesidades de transporte.</div>
+                        <div class="decor-2 decor-2_mod-a decor-2_mod_white"></div>
+                     </div>
+                     <!-- end col -->
+                  </div>
+                  <!-- end row -->
+               </div>
+               <!-- end container -->
+            </div>
+            <!-- end section__inner -->
+         </div>
+         <!-- end section-title -->
+         <div class="section-bg_mod-b section_mod-a wow">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6">
+                     <section class="section-area">
+                        <h2 class="ui-title-block ui-title-block_w_bg ui-title-block_w_bg-first"><span class="ui-title-block__inner">SOLICITAR COTIZACIÓN</span></h2>
+                        <!--
+                        <form class="form-request form-request_mod-a ui-form block_right_pad" action="#" method="post">
+                           <div class="row">
+                              <div class="col-xs-12">
+                                 <input class="form-control" type="text" placeholder="Nombre completo">
+                              </div>
+                              <div class="col-xs-12">
+                                 <input class="form-control" type="email" placeholder="Correo electrónico">
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-sm-6">
+                                 <input class="form-control" type="text" placeholder="Desde...">
+                              </div>
+                              <div class="col-sm-6">
+                                 <input class="form-control" type="text" placeholder="Hasta...">
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-sm-6">
+                                 <input class="form-control" type="text" placeholder="Tipo de carga...">											
+                              </div>
+                              <div class="col-sm-6">
+                                 <input class="form-control" type="text" placeholder="Tema">
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xs-12">
+                                 <textarea class="form-control" rows="11" placeholder="mensaje"></textarea>
+                                 <button class="ui-form__btn btn btn-sm btn_mod-a btn-effect"><span class="btn__inner">Solicitar cotización</span></button>
+                              </div>
+                           </div>
+                        </form>-->
+                        
+                        <form id="contact" method="post" enctype="multipart/form-data">
+                           <div class="row">
+                              <div class="col-sm-6">
+                                 <input class="form-control" type="text" placeholder="Nombre completo" id="name" name="name" required="required">
+                              </div>
+                              <!-- end col -->
+                              <div class="col-sm-6">
+                                 <input class="form-control" type="text" placeholder="Empresa" id="lastname" name="lastname" required="required">
+                              </div>
+                              <!-- end col -->
+                           </div>
+                           <!-- end row -->
+                           <div class="row">
+                              <div class="col-sm-6">
+                                 <input class="form-control" type="email" placeholder="E-mail" id="email" name="email" required="required">
+                              </div>
+                              <!-- end col -->
+                              <div class="col-sm-6">
+                                 <input class="form-control" type="tel" placeholder="Telefonos" id="phone" name="phone" required="required">
+                              </div>
+                              <!-- end col -->
+                           </div>
+                           <!-- end row -->
+                           <div class="row">
+                              <div class="col-xs-12">
+                                 <input class="form-control" type="text" placeholder="Cotización" id="tema" name="tema" required="required">
+                              </div>
+                              <!-- end col -->
+                           </div>
+                           <!-- end row -->
+                           <div class="row">
+                              <div class="col-xs-12">
+                                 <textarea class="form-control" placeholder="Detalles" id="mensaje" name="mensaje" required rows="19"></textarea>
+                                 <button name="submit" type="submit" id="form-submit" class="btn btn_mod-a btn-sm btn-effect pull-right"><span class="btn__inner">send message</span></button>
+                              </div>
+                              <!-- end col -->
+                           </div>
+                           <!-- end row -->
+                           <div class="row">
+                              <div class="col-xs-12">
+                                 <img id="loding_form" src="mail/loding.gif" width="25" height="25" alt="">
+                                 <div id="success">
+                                    <span>
+                                       <p>¡Tu mensaje fue enviado satisfactoriamente!<br>Nos contactaremos contigo.</p>
+                                    </span>
+                                 </div>
+                                 <div id="error">
+                                    <span>
+                                       <p>Algo no está funcionando bien, prueba refrescar la pagina y envía el formulario nuevamente.</p>
+                                    </span>
+                                 </div>
+                              </div>
+                              <!-- end col -->
+                           </div>
+                           <!-- end row -->
+                        </form>
+                        <!-- end form-request -->
+                     </section>
+                     <div class="decor-4 decor-4_mod-b"><i class="icon flaticon-logistics3 color-primary"></i></div>
+                  </div>
+                  <div class="col-md-6">
+                     <section class="section-area">
+                        <h2 class="ui-title-block ui-title-block_w_bg ui-title-block_w_bg-last ui-title-block_w_bg-primary"><span class="ui-title-block__inner">Preguntas frecuentes</span></h2>
+                        <div class="block_left_pad">
+                           <div class="panel-group accordion" id="accordion-1">
+                              <div class="panel">
+                                 <div class="panel-heading">
+                                    <a class="btn-collapse collapsed" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-1"><i class="icon"></i><span class="helper-2"></span></a>
+                                    <h3 class="panel-title ui-title-inner">SE PUEDE TRANSPORTAR ALIMENTOS CONGELADOS</h3>
+                                    <div class="decor-2 decor-2_mod-b"></div>
+                                 </div>
+                                 <div id="collapse-1" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                       <!--<p>Ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos-trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Due aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>-->
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- end panel -->
+                              <div class="panel panel-default">
+                                 <div class="panel-heading">
+                                    <a class="btn-collapse collapsed" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-2"><i class="icon"></i><span class="helper-2"></span></a>
+                                    <h3 class="panel-title ui-title-inner">SEGUROS ANTI ROBOS Y ASALTOS</h3>
+                                    <div class="decor-2 decor-2_mod-b"></div>
+                                 </div>
+                                 <div id="collapse-2" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                       <!--<p>Ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos-trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Due aute irure dolor in reprehenderit in oluptate velit esse cillum.</p>-->
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- end panel -->
+                              <div class="panel">
+                                 <div class="panel-heading">
+                                    <a class="btn-collapse collapsed" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-3"><i class="icon"></i><span class="helper-2"></span></a>
+                                    <h3 class="panel-title ui-title-inner">COMO UBICAR MI MERCANCIA SI ESTA EN VIAJE</h3>
+                                    <div class="decor-2 decor-2_mod-b"></div>
+                                 </div>
+                                 <div id="collapse-3" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                       <!--<p>Ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos-trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Due aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>-->
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- end panel -->
+                              <div class="panel">
+                                 <div class="panel-heading">
+                                    <a class="btn-collapse collapsed" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-4"><i class="icon"></i><span class="helper-2"></span></a>
+                                    <h3 class="panel-title ui-title-inner">CUENTAN CON TRANSPORTE MODERNOS</h3>
+                                    <div class="decor-2 decor-2_mod-b"></div>
+                                 </div>
+                                 <div id="collapse-4" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                       <!--<p>Ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos-trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Due aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>-->
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- end panel -->
+                           </div>
+                           <!-- end accordion -->
+                           <div class="note text-center">Si no encontró la respuesta a su pregunta aquí, póngase en contacto con nosotros & Nuestro representante le contestará tan pronto como sea poossible, generalmente en el plazo de 24 horas!</div>
+                           <div class="decor-3 text-center"></div>
+                           <div class="text-center"><a class="btn-link btn-link_lg" href="contact.html">Estar en contacto</a></div>
+                        </div>
+                     </section>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end section -->
+         <div class="section-clients section-bg_mod-a wow">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <div class="carusel-clients slider_mod-a owl-carousel owl-theme enable-owl-carousel"
+                        data-min480="1"
+                        data-min768="4"
+                        data-min992="4"
+                        data-min1200="4"
+                        data-pagination="false"
+                        data-navigation="false"
+                        data-auto-play="4000"
+                        data-stop-on-hover="true">
+                        <a class="carusel-clients__item" href="index.html">
+                        <img class="carusel-clients__img" src="assets/media/clients/1.png" alt="logo">
+                        <span class="helper-2"></span>
+                        </a>
+                        <a class="carusel-clients__item" href="index.html">
+                        <img class="carusel-clients__img" src="assets/media/clients/2.png" alt="logo">
+                        <span class="helper-2"></span>
+                        </a>
+                        <a class="carusel-clients__item" href="index.html">
+                        <img class="carusel-clients__img" src="assets/media/clients/3.png" alt="logo">
+                        <span class="helper-2"></span>
+                        </a>
+                        <a class="carusel-clients__item" href="index.html">
+                        <img class="carusel-clients__img" src="assets/media/clients/4.png" alt="logo">
+                        <span class="helper-2"></span>
+                        </a>
+                     </div>
+                     <!-- end  -->
+                  </div>
+                  <!-- end col -->
+               </div>
+               <!-- end row -->
+            </div>
+            <!-- end container -->
+         </div>
+         <!-- end section-clients -->
+         <div class="section-default section-bg_mod-c wow">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <div class="block-contacts">
+                        <div class="block-contacts__title-1">Llamanos ahora</div>
+                        <div class="block-contacts__title-2"><i class="icon flaticon-telephone114"></i><span class="color-primary">(+511) 984 545 121</span></div>
+                        <div class="block-contacts__title-3">Estamos atentos las 24/7 para asistirte</div>
+                     </div>
+                  </div>
+                  <!-- end col -->
+               </div>
+               <!-- end row -->
+            </div>
+            <!-- end container -->
+         </div>
+         <!-- end section-default -->
+         <div class="section-area parallax-bg parallax-dark wow">
+            <ul class="bg-slideshow">
+               <li>
+                  <div style="background-image:url(assets/media/bg/bg-footer.jpg)" class="bg-slide"></div>
+               </li>
+            </ul>
+            <div class="section__inner">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12">
+                        <footer class="footer">
+                           <div class="footer-main">
+                              <div class="section__inner">
+                                 <div class="row">
+                                    <div class="col-lg-5 col-md-3">
+                                       <div class="footer__section">
+                                          <a class="footer__logo" href="home-1.html"><img src="assets/img/logo_mod-b.png" alt="Logo"></a>
+                                          <div class="footer__info">
+                                             <p>Valoramos el transporte a nivel estratégico para ayudarle a alcanzar sus metas y objetivos de negocio específicos. Con nuestras soluciones personalizadas, Q&A  ofrece un plan que se adapte a sus necesidades. </p>
+                                             <p>Al centrarse en las personas, la seguridad, la innovación, el servicio y la construcción de un legado a través de nuestro personal de soporte dedicado y conductores, abriendo nuevos mercados estratégicos en todo el país.</p>
+                                          </div>
+                                          <ul class="social-links social-links_mod-a list-inline">
+                                             <li><a target="_blank" href="#"><i class="icons fa fa-twitter"></i></a></li>
+                                             <li><a target="_blank" href="#"><i class="icons fa fa-facebook"></i></a></li>
+                                             <li><a target="_blank" href="#"><i class="icons fa fa-linkedin"></i></a></li>
+                                             <li><a target="_blank" href="#"><i class="icons fa fa-google-plus"></i></a></li>
+                                             <li><a target="_blank" href="#"><i class="icons fa fa-vimeo"></i></a></li>
+                                             <li><a target="_blank" href="#"><i class="icons fa fa-instagram"></i></a></li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="col-lg-2 col-md-3">
+                                       <section class="footer__section">
+                                          <h3 class="footer__title">servicios</h3>
+                                          <div class="decor-2 decor-2_mod-b decor-2_mod_white"></div>
+                                          <ul class="footer-list list-unstyled">
+                                             <li class="footer-list__item">
+                                                <a class="footer-list__link" href="services.html">Refrigerados</a>
+                                             </li>
+                                             <li class="footer-list__item">
+                                                <a class="footer-list__link" href="services.html">Congelados</a>
+                                             </li>
+                                             <li class="footer-list__item">
+                                                <a class="footer-list__link" href="services.html">Construcción</a>
+                                             </li>
+                                             <li class="footer-list__item">
+                                                <a class="footer-list__link" href="services.html">Mudanzas</a>
+                                             </li>
+                                             <li class="footer-list__item">
+                                                <a class="footer-list__link" href="services.html">Enpaquetado</a>
+                                             </li>
+                                             <li class="footer-list__item">
+                                                <a class="footer-list__link" href="services.html">Catering</a>
+                                             </li>
+                                             <li class="footer-list__item">
+                                                <a class="footer-list__link" href="services.html">Seco</a>
+                                             </li>
+                                          </ul>
+                                       </section>
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="col-lg-2 col-md-3">
+                                       <section class="footer__section">
+                                          <h3 class="footer__title">Accesos</h3>
+                                          <div class="decor-2 decor-2_mod-b decor-2_mod_white"></div>
+                                          <ul class="footer-list list-unstyled">
+                                             <li class="footer-list__item">
+                                                <a class="footer-list__link" href="index.html">Inicio</a>
+                                             </li>
+                                             <li class="footer-list__item">
+                                                <a class="footer-list__link" href="cotizacion.html">Cotización</a>
+                                             </li>
+                                             <li class="footer-list__item">
+                                                <a class="footer-list__link" href="about.html">Nosotros</a>
+                                             </li>
+                                             <li class="footer-list__item">
+                                                <a class="footer-list__link" href="index.html">Contacto</a>
+                                             </li>
+                                             <li class="footer-list__item">
+                                                <a class="footer-list__link" href="index.html">Servicio al cliente</a>
+                                             </li>
+                                          </ul>
+                                       </section>
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="col-md-3">
+                                       <section class="footer__section">
+                                          <h3 class="footer__title">Detalles del contacto</h3>
+                                          <div class="decor-2 decor-2_mod-b decor-2_mod_white"></div>
+                                          <div class="footer-contact">
+                                             <div class="footer-contact__inner">
+                                                <div class="footer-contact__title">Transportes Q&A</div>
+                                                <div class="footer-contact__info">Jr Luis Pardo Mz F Lt 15 Jicamarca , Lima<br>33102  PERÚ</div>
+                                                <div class="footer-contact__info">Telf: (+511) 540 9323</div>
+                                                <div class="footer-contact__info">E-mail: <a href="mailto:info@transportesqa.com">info@transportesqa.com</a></div>
+                                                <!--<select class="footer-contact__select selectpicker">
+                                                   <option>Select a branch</option>
+                                                   
+                                                   <option>1</option>
+                                                   
+                                                   <option>2</option>
+                                                   
+                                                   </select>-->
+                                                <div class="footer-contact__note">Rellene el formulario superior y nos pondremos en contacto con usted.</div>
+                                             </div>
+                                          </div>
+                                          <!-- end footer-contact -->
+                                       </section>
+                                    </div>
+                                    <!-- end col -->
+                                 </div>
+                                 <!-- end row -->
+                              </div>
+                              <!-- end section__inner -->
+                           </div>
+                           <!-- end footer-main -->
+                           <div class="copyright clearfix">
+                              <div class="copyright__inner">© 2017 <a class="copyright__link" href="index.html">Transportes Q&A</a> Todos los derechos reservados.</div>
+                              <ul class="copyright-list list-inline">
+                                 <li class="copyright-list__item">
+                                    <a class="copyright-list__link" href="index.html">Terminos de Uso</a>
+                                 </li>
+                                 <li class="copyright-list__item">
+                                    <a class="copyright-list__link" href="index.html">Politica de privacidad</a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <!-- end copyright -->
+                        </footer>
+                        <!-- end footer -->
+                     </div>
+                     <!-- end col -->
+                  </div>
+                  <!-- end row -->
+               </div>
+               <!-- end container -->
+            </div>
+            <!-- end section__inner -->
+         </div>
+         <!-- end section-area -->
+      </div>
+      <!-- end layout-theme -->
+      <!-- SCRIPTS MAIN -->
+      <script src="assets/js/jquery-migrate-1.2.1.js"></script>
+      <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+      <script src="assets/js/waypoints.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+      <script src="assets/js/modernizr.custom.js"></script>
+      <script src="assets/js/cssua.min.js"></script>
+      <!--SCRIPTS THEME-->
+      <!-- Home slider -->
+      <script src="assets/plugins/slider-pro/dist/js/jquery.sliderPro.js"></script>
+      <!-- Sliders -->
+      <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+      <script src="assets/plugins/flexslider/jquery.flexslider.js"></script>
+      <!-- Modal -->
+      <script src="assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+      <!-- Select customization -->
+      <script src="assets/plugins/bootstrap-select/dist/js/bootstrap-select.js"></script>
+      <!-- Chart -->
+      <script src="assets/plugins/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+      <!-- Animation -->
+      <script src="assets/plugins/scrollreveal/dist/scrollreveal.min.js"></script>
+      <!-- Menu for android-->
+      <script src="assets/js/doubletaptogo.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.6/SmoothScroll.min.js"></script>
+      <!-- Custom -->
+      <script src="mail/jquery.validate.min.js"></script>
+      <script src="mail/jquery.form.js"></script>  
+      <script src="mail/contacto.js"></script>
+      <script src="assets/js/custom.js"></script>
+   </body>
+</html>
