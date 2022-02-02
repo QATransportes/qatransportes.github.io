@@ -82,6 +82,9 @@ html .sp-body {
 .demopage-preview > div {
 	padding-bottom: 70px;
 }
+.pb-2 {
+	padding-bottom: 70px;
+}
 .demopage-preview_item {
 	display: block;
 	height: 314px;
