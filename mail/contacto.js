@@ -55,7 +55,7 @@ $(function () {
         Host: "smtp.gmail.com",
         Username: "transportes.qa.of@gmail.com",
         Password: "grpmupotdxyiyzhf",
-        To: ["transportes.qa.of@gmail.com", "gustavoquinonez291@gmail.com"],
+        To: ["transportes.qa.of@gmail.com", "transportfriocargoqa@gmail.com", "transportesqa.sac@hotmail.com"],
         From: "info@friofreshperu.com",
         Subject: "Formulario de contacto",
         Body:
