@@ -58,7 +58,7 @@ $(function () {
         To: ["transportes.qa.of@gmail.com", "transportfriocargoqa@gmail.com", "transportesqa.sac@hotmail.com"],
         // To: "transportes.qa.of@gmail.com",
         From: "cotizacion@friofreshperu.com",
-        Subject: "Requieren una cotizacion",
+        Subject: "Requieren una cotización",
         Body:
           "Estos son los datos del solicitante para una cotizacion: <br> Nombre del cliente: " +
           form.name.value +
